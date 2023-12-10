@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader-Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <div class="logo-area">
+                    <img src="images/icons/logo.png" alt="logo"><span>Idea</span>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Abouts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="sign-area">
+                            <a href="#"><img src="images/icons/profile.png" alt="profile"></a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+
+    <div class="container player">
+        <div id="top">
+            <h3>Top Player</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="player-area">
+                    <img src="images/players/player-1.png" alt="profile 1">
+                    <h5>John Simons</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="player-area">
+                    <img src="images/players/player-2.png" alt="profile 2">
+                    <h5>Mr Macman</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="player-area">
+                    <img src="images/players/player-3.png" alt="profile 3">
+                    <h5>Capt. Holad</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="player-area">
+                    <img src="images/players/player-4.png" alt="profile 4">
+                    <h5>David Backham</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="player-area">
+                    <img src="images/players/player-5.png" alt="profile 5">
+                    <h5>Jeff Bezos</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="player-area">
+                    <img src="images/players/player-6.png" alt="profile 6">
+                    <h5>Elon Masami</h5>
+                </div>
+            </div>
+        </div>
+        
+        <!-- second area start from here -->
+        <div class="liner"></div>
+        <div class="top-area">
+            <h3>Top Blogs</h3>
+        </div>
+        <div class="row" id="drop">
+            <div class="col-md-6">
+                <div class="blogs-area">
+                    <img src="images/blogs/blog-1.png" alt="bg1">
+                    <div class="blogs-content">
+                    <h4>13 of My Favorite UI/UX Goodies</h4>
+                    <span>By</span>
+                    <a href="#">Danny Sapio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blogs-area">
+                    <img src="images/blogs/blog-2.png" alt="bg1">
+                    <div class="blogs-content">
+                    <h4>UI cheat sheet: list vs grids</h4>
+                    <span>By</span>
+                    <a href="#">James Cameron</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blogs-area">
+                    <img src="images/blogs/blog-3.png" alt="bg1">
+                    <div class="blogs-content">
+                    <h4>7 typography tips for interface design</h4>
+                    <span>By</span>
+                    <a href="#">Mac Henry</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blogs-area">
+                    <img src="images/blogs/blog-4.png" alt="bg1">
+                    <div class="blogs-content">
+                    <h4>Your logo is copied</h4>
+                    <span>By</span>
+                    <a href="#">Jaramiah lam</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer-area">
+        <h3>Leates Course</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="course">
+                    <img src="images/courses/course-1.png" alt="course 1">
+                    <h4>React - The Complete Guide 2023</h4>
+                    <p>Read Krakoff</p>
+                    <div class="footer">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <span id="lsd">4.5</span>
+                   <!-- time area start from here -->
+                        <span id="tm"><i class="bi bi-clock"></i> 01:30 hr</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course">
+                    <img src="images/courses/course-2.png" alt="course 1">
+                    <h4>Powerpoint 2023 Master Powerpoint Cour</h4>
+                    <p>Walter Scott</p>
+                    <div class="footer">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <span id="lsd">4.3</span>
+                   <!-- time area start from here -->
+                        <span id="tm"><i class="bi bi-clock"></i> 01:20 hr</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course">
+                    <img src="images/courses/course-3.png" alt="course 1">
+                    <h4>The Complete JavaScript Course 2023</h4>
+                    <p>Tom Latham</p>
+                    <div class="footer">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <span id="lsd">4.9</span>
+                   <!-- time area start from here -->
+                        <span id="tm"><i class="bi bi-clock"></i> 08:20 hr</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>	
